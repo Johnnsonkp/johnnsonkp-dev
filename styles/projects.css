@@ -1,0 +1,210 @@
+#home-projects{
+    min-height: 180vh;
+    width: 100vw;
+    margin:auto;
+    background-color: #101010;
+    color: #fff;
+    overflow-x: hidden; 
+    text-align: center;
+}
+
+.container{
+    width: 89%;
+    max-width: 2000px;
+    margin: auto;
+    overflow-x: hidden; 
+    text-align: center; 
+}
+.header{
+    width: 50%;
+    margin: 50px auto;
+}
+.header-text{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.header-p{
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 100;
+}
+.projects{
+    padding-top: 45px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-around;
+    flex-wrap: wrap;
+}
+.project{
+    width: 33%;
+    height: 420px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* border: 1px solid red; */
+}
+.display-none{
+    background-image: linear-gradient(to left, rgba(0,0,0,0.5),rgba(0, 0, 0, 2));
+    padding-left: 19px;
+    padding-right: 19px;
+    height: 170px;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    transform: translateY(97%);
+    transition: transform 0.3s ease-in;
+}
+.project:hover .display-none{
+    transform: translateY(19%);
+}
+.img-one{
+    background-image: url('../images/movie_db.png');
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-position: -30px 0px;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    position: relative;
+    height: 340px;
+    width: 90%;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+    /* // border: 1px solid red; */
+
+}
+.img-two{
+    background-image: url('../images/items1.png');
+    background-position: -19px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 340px;
+    width: 90%;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img-three{
+    background-image: url('../images/kanter.png');
+    background-position: 0px 0px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 340px;
+    width: 90%;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img-four{
+    background-image: url('../images/v2.png');
+    background-position: 0px 0px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 340px;
+    width: 90%;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img-five{
+    background-image: url('../images/asap-mob.png');
+    background-position: 0px 0px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 340px;
+    width: 90%;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img-six{
+    background-image: url('../images/cozy-landing.png');
+    background-position: 0px 0px;
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 340px;
+    width: 90%;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img-six .display-none{
+    display: block;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+p{
+    font-weight: normal;
+}
+.btn-div{
+    display: flex;
+    width: 90%
+}
+button{
+    margin-top: 20px;
+    width: 182px;
+    width: 20vw;
+    height: 40px;
+    height: 50px;
+    font-size: 15px;
+    color: red;
+    border-radius: 2px;
+    border: 1px solid #f6004c;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-left{
+    margin-right: 5px;
+    background-color: #21262d;
+    border: 1px solid #f6004c;
+}
+.btn-right{
+    margin-left: 5px;
+    background-color: #c9c1d9;
+    background-color: #21262d;
+    border: 1px solid #21262d;
+
+}
+.btn-right:hover{
+    background-color: #f6004c;
+    background-color: #238636;
+}
+.btn-left:hover{
+    background-color: #f6004c;
+}
+.background-light{
+    background-color: #e1e4e8 !important;
+}
+.background-light-2{
+    background-color: #fff !important;
+}

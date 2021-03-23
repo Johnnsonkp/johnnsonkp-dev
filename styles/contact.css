@@ -1,0 +1,77 @@
+#home-contact{
+    min-height: 115vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #101010;
+    padding-bottom: 30px;
+}
+
+    #home-contact .container{
+        padding-top: 120px;
+        padding-top: 8%;
+        max-width: 1500px;
+        width: 89%;
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: left;
+    }
+
+#home-contact h1{
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+#home-contact p{
+    padding-top: 0px;
+    font-size: 18px;
+    width: 85%;
+    line-height: 26px;
+    max-width: 600px;
+}
+.highlight{
+    color: #f6004c;
+}
+
+#home-contact .form-div{
+    width: 100%;
+    
+}
+#home-contact form{
+    width: 85%;
+    max-width: 600px;
+}
+#home-contact textarea, input{
+    color: #fff;
+    max-width: 600px;
+}
+#home-contact textarea:focus{
+    outline: none;
+}
+#home-contact input:focus{
+    outline: none;
+}
+#home-contact form label, input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 600px;
+}
+#home-contact input, textarea{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #101010;
+    border: 3px solid #191919;
+
+}
+#home-contact button{
+    background-color: #f6004c;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    border-radius: 5px;
+    margin-top: 6px;
+    max-width: 600px;
+}
+#home-contact button:hover{
+    background-color: #fff;
+    color: #f6004c;
+}
